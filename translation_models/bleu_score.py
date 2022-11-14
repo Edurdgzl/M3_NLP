@@ -9,12 +9,6 @@ def bleu_score():
     google_contents = google_text.read()
     google_contents = google_contents.split()
 
-
-    google_text = open('translation_models/results/google_result.txt', 'r')
-    google_contents = google_text.read()
-    google_contents = google_contents.split()
-
-
     deepl_text = open('translation_models/results/deepl_result.txt', 'r')
     deepl_contents = deepl_text.read()
     deepl_contents = deepl_contents.split()
