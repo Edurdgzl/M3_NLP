@@ -1,5 +1,14 @@
 from nltk.translate.bleu_score import sentence_bleu
 
+"""
+I would recommend making a Translator class that manages the methods in this folder.
+
+The reason is that this file now needs to know about the behavior of the other file, e.g. what
+is written to these files. So grouping together the related logic makes it 
+easier to understand what is going on! 
+"""
+
+
 def bleu_score():
     europarl = open('translation_models/europarl_texts/europarl-en.txt', 'r')
     europarl_contents = europarl.read()
