@@ -6,7 +6,13 @@ import pandas as pd
 from flair.trainers import ModelTrainer
 from flair.models import SequenceTagger
 from flair.embeddings import TokenEmbeddings, WordEmbeddings, StackedEmbeddings, FlairEmbeddings
+"""
+It’s best practice to have your code in a descriptive method or small class, if possible, rather than running at the top-level.  makes it easier for other modules to import the functionality later if needed! 
 
+Try to split your code into methods and classes with descriptive names! Some reading for this: 
+
+Classes: https://www.dataquest.io/blog/using-classes-in-python/ and https://www.geeksforgeeks.org/python-classes-and-objects/
+"""
 
 def download_file(url, output_file):
   Path(output_file).parent.mkdir(parents=True, exist_ok=True)
