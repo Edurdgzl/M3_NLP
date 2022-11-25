@@ -10,5 +10,5 @@ def sentiment_analysis():
             sentiment = sia.polarity_scores(line)
             if (sentiment['neg'] > sentiment['pos']):
                 print('NEGATIVE')
-            else: # dont need the extra conditional
+            else:
                 print('POSITIVE')

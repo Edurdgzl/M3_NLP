@@ -6,7 +6,7 @@ Simple overview of use/purpose.
 
 This project is divided in three sections. The first one is Sentiment Analysis. In this folder there is a folder with the dataset and the file sentiment_analysis.py which uses SentimentIntensityAnalyzer from nltk to do sentiment analysis on 'tiny_movie_reviews_dataset.txt'. The program prints if the review is POSITIVE or NEGATIVE.
 
-The second section is about Named Entity Recognition.
+The second section is about Named Entity Recognition. The folder contains a folder with the loss and test tsv files, a training and validation loss image and a txt files with the weights. It also contaings a ner.py file which trains the model with the Corpus dataset, uses glove for embedding, a learning rate of 0.1 and a max of 150 epochs. It also plots the training and validation loss and saves the image in /ner/model/training.png.
 ![alt text](https://github.com/Edurdgzl/M3_NLP/blob/main/ner/model/training.png?raw=true)
 
 The third section is about translation models. The folder contains a folder with the two versions of the europarl text (English and Spanish, with 100 lines), a folder with two txt files with the results of each model, the deepl_translator.py file which has a function to use the DeepL API, the google_cloud_translator.py file wich has a function to use the Google Cloud Translator API, the translation_mdeols.py which uses the two functions mentioned above with the Spanish version of the europarl text and creates the txt files with the results, and the bleu_score.py which has a function to print the Bleu score of each model.
@@ -35,4 +35,4 @@ python3 run.py
 
 ## Authors
 
-ex. Eduardo Rodríguez López A01749381@tec.mx
+Eduardo Rodríguez López A01749381@tec.mx
