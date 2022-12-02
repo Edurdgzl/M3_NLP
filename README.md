@@ -1,7 +1,5 @@
 # Module 3 NLP Module Project
 
-Simple overview of use/purpose.
-
 ## Description
 
 This project is divided in three sections. The first one is Sentiment Analysis. In this folder there is a folder with the dataset and the file sentiment_analysis.py which uses SentimentIntensityAnalyzer from nltk to do sentiment analysis on 'tiny_movie_reviews_dataset.txt'. The program prints if the review is POSITIVE or NEGATIVE.
