@@ -21,7 +21,11 @@ API Keys:
 For DeepL put the key in an env file as AUTH_KEY
 For Google Cloud Translator put the path of the json file in an env file as GOOGLE_APPLICATION_CREDENTIALS
 
-Finally install the requirements with the command 'pip install -r requirements.txt'
+Finally install the requirements with the command
+
+```
+pip install -r requirements.txt
+```
 
 ### Executing program
 
